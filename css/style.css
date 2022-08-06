@@ -123,3 +123,7 @@ reuasable css
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.image-small{
+    height: 80vh;
+}
