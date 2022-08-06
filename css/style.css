@@ -127,3 +127,7 @@ reuasable css
 .image-small{
     height: 80vh;
 }
+
+.thick-text{
+    font-weight: 900;
+}
