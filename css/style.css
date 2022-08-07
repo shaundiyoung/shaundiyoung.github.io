@@ -125,9 +125,16 @@ reuasable css
 }
 
 .image-small{
-    height: 80vh;
+    height: 70vh;
+    width: 100%;
 }
 
 .thick-text{
     font-weight: 900;
+}
+#landing{
+background-image: url("/images/coding-gbc2c795a1_1920.jpg");
+background-repeat: no-repeat;
+height: max-content;
+background-position:center;
 }
