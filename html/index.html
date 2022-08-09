@@ -25,12 +25,12 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-end">
                   <a class="nav-link active text-white" aria-current="page" href="#">Home.</a>
-                  <a class="nav-link text-white" href="#Skills">Skills.</a>
-                  <a class="nav-link text-white" href="#">Achievements.</a>
-                  <a class="nav-link text-white" href="#">My Projects.</a>
-                  <a class="nav-link text-white" href="#">Goals.</a>
-                  <a class="nav-link text-white" href="#">About.</a>
-                  <a class="nav-link text-white" href="#">Contact.</a>
+                  <a class="nav-link text-white" href="index.html#Skills">Skills.</a>
+                  <a class="nav-link text-white" href="index.html#Achievements">Achievements.</a>
+                  <a class="nav-link text-white" href="projects.html">My Projects.</a>
+                  <a class="nav-link text-white" href="index.html#Goals">Goals.</a>
+                  <a class="nav-link text-white" href="index.html#About">About.</a>
+                  <a class="nav-link text-white" href="index.html#ContactMe">Contact Me.</a>
                 </div>
               </div>
             </div>
@@ -276,13 +276,22 @@
 <div class="po"></div>
 <!-- Contact Me section -->
 <div id="ContactMe">
-    <div class="container">
+    <div class="container w-75">
         <h4 class="display-5 text-center thick-text"> Contact Me</h4>
         <form action="">
             <label for="name" class="form-label">
                 Name:
             </label>
-            <input class="form-control" type="name">
+            <input class="form-control" type="text" name="name">
+            <label for="Email" class="form-label">
+                Email:
+            </label>
+            <input class="form-control" type="text" name="Email">
+            <div class="form-floating pt-4 pb-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="Message" style="height: 120px"></textarea>
+                <label for="Message" class="pt-4">Message</label>
+              </div>
+            <input type="submit" value="submit" class="form-control btn btn-dark">
         </form>
     </div>
 </div>
