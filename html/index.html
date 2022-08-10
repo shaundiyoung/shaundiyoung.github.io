@@ -278,17 +278,17 @@
 <div id="ContactMe">
     <div class="container w-75">
         <h4 class="display-5 text-center thick-text"> Contact Me</h4>
-        <form action="mailto:shaundiyoungshaundiyoung@gmail.com" method="post">
+        <form action="mailto:shaundiyoungshaundiyoung@gmail.com" enctype="multipart/form-data" method="post">
             <label for="name" class="form-label">
                 Name:
             </label>
-            <input class="form-control" type="text" name="name">
+            <input class="form-control" type="text" name="name" required>
             <label for="Email" class="form-label">
                 Email:
             </label>
-            <input class="form-control" type="text" name="Email">
+            <input class="form-control" type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             <div class="form-floating pt-4 pb-4">
-                <textarea class="form-control" placeholder="Leave a comment here" id="Message" style="height: 120px"></textarea>
+                <textarea class="form-control" id="Message" style="height: 120px" name="Message" required></textarea>
                 <label for="Message" class="pt-4">Message</label>
               </div>
             <input type="submit" value="submit" class="form-control btn btn-dark">
@@ -296,9 +296,19 @@
     </div>
 </div>
 <div>
-  Email Address: 
-</div>
+<div class="po"></div>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <a href="mailto::shaundiyoungshaundiyoung@gmail.com" class="btn btn-secondary" method="post">Email Address: </a> 
+    </div>
+    <div class="col">
 
+    </div>
+  </div>
+  
+</div>
+</div>
 <div class="po"></div>
 <!-- End of Contact Me section -->
     <!-- footing -->
@@ -319,7 +329,7 @@
                     <h5 class="text-secondary">Social Media</h5>
                     <a class="nav-link" href="https://www.linkedin.com/in/shaundi-young-a33a641a9">linkedIn</a>
                     <a class="nav-link" href="https://twitter.com/MacroMovemt">Twitter</a>
-                    <a class="nav-link" href="https://github.com/shaundiyoung">GitHub</a>
+                    <a class="nav-link" href="https://github.com/shaundiyoung" target="_blank">GitHub</a>
                     <a class="nav-link" href="index.html#ContactMe">Contact Info</a>
                 </div>
                 
